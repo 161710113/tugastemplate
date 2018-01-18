@@ -23,6 +23,9 @@ Route::get('/galeri', function () {
 Route::get('/quotes', function () {
     return view('blog.quotes');
 });
+Route::get('/', function () {
+    return view('welcome');
+});
 Route::get('/biodata', function () {
     return view('blog.biodata');
 });
